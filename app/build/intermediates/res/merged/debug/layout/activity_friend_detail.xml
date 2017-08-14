@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:weightSum="1"
+
+
+android:background="@drawable/ggg"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Friend Details"
+    android:textSize="20sp"
+    android:textColor="#000000"
+    android:textStyle="bold"
+
+    android:gravity="center"
+    />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <TextView
+        android:fontFamily="monospace"
+        android:layout_marginTop="18dp"
+        android:id="@+id/NAME"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+        android:lineSpacingExtra="2dp"
+        android:text="NAME-"
+      android:textSize="20sp"
+      android:textColor="#FFFFFF"
+      android:textStyle="bold">
+      </TextView>
+<TextView
+    android:layout_marginTop="18dp"
+    android:fontFamily="monospace"
+	 android:id="@+id/txtName"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@+id/NAME"
+    android:text="Sakhi"
+    android:textColor="#FFFFFF"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    >
+    </TextView>
+
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMAIL-"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="18dp"/>
+    <TextView
+        android:fontFamily="monospace"
+	 android:id="@+id/txtEmail"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:text="sakhi@gmail.com"
+    android:textColor="#FFFFFF"
+    android:textStyle="bold"
+    android:textSize="20sp"
+        android:layout_marginTop="18dp"
+
+    >
+    </TextView>
+</LinearLayout>
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:fontFamily="monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:text="PHONE NUMBER-"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginTop="18dp"
+            android:textSize="20sp"
+            />
+    
+<TextView
+    android:fontFamily="monospace"
+	 android:id="@+id/txtPhone"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:text="0774993748"
+    android:layout_marginTop="18dp"
+    android:textColor="#FFFFFF"
+    android:textStyle="bold"
+    android:textSize="20sp"
+
+    >
+    </TextView>
+
+
+  
+  </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="140sp"
+        android:layout_height="60sp"
+
+
+        android:layout_marginTop="48dp"
+        android:text="Send SMS"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/kkk"/>
+
+</LinearLayout>

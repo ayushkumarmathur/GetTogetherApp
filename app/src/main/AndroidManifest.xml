@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gettogether"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.gettogether.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+ 	
+	<activity
+            android:name=".HomeActivity"
+            android:label="@string/home_screen_name" >
+           
+ <intent-filter>
+               
+
+
+ <action android:name="com.example.gettogether.HomeActivity" />
+          
+
+      <category android:name="android.intent.category.DEFAULT" />
+      
+
+
+      </intent-filter>
+     
+   </activity> 
+      
+
+
+  <activity
+            android:name=".SearchPlacesActivity"
+            android:label="@string/searchPlaces_screen_name" >
+        
+
+
+
+    <intent-filter>
+              
+
+
+  <action android:name="com.example.gettogether.SearchPlacesActivity" />
+          
+
+
+
+      <category android:name="android.intent.category.DEFAULT" />
+       
+
+
+     </intent-filter>
+      
+
+
+
+  </activity> 
+            
+
+
+ <activity
+            android:name=".FriendsActivity"
+            android:label="@string/friends_screen_name" >
+    
+
+
+
+        <intent-filter>
+             
+
+
+
+   <action android:name="com.example.gettogether.FriendsActivity" />
+           
+
+
+
+     <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+      
+
+
+
+  </activity> 
+ 		
+
+
+
+
+
+
+<activity
+            android:name=".FriendAddActivity"
+            android:label="@string/friendAdd_screen_name" >
+            <intent-filter>
+             
+
+
+
+   <action android:name="com.example.gettogether.FriendAddActivity" />
+             
+
+
+   <category android:name="android.intent.category.DEFAULT" />
+      
+
+
+      </intent-filter>
+      
+
+  </activity>  
+      
+
+
+  <activity
+            android:name=".FriendDetailActivity"
+            android:label="@string/friendDetail_screen_name" >
+   
+
+
+         <intent-filter>
+               
+
+
+ <action android:name="com.example.gettogether.FriendDetailActivity" />
+                
+
+
+<category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+	
+
+
+
+
+	<activity
+            android:name=".FriendUpdateActivity"
+            android:label="@string/friendUpdate_screen_name" >
+    
+
+
+
+
+
+
+
+        <intent-filter>
+              
+
+
+
+
+
+
+  <action android:name="com.example.gettogether.FriendUpdateActivity" />
+          
+
+
+
+
+
+
+      <category android:name="android.intent.category.DEFAULT" />
+       
+
+
+     </intent-filter>
+        </activity>   
+        
+ 
+
+
+      <activity
+            android:name=".GetTogethersActivity"
+            android:label="@string/gettogethers_screen_name" >
+    
+
+
+        <intent-filter>
+              
+
+
+  <action android:name="com.example.gettogether.GetTogethersActivity" />
+           
+
+
+     <category android:name="android.intent.category.DEFAULT" />
+    
+
+
+        </intent-filter>
+        </activity> 
+ 		
+
+
+<activity
+            android:name=".GetTogetherAddActivity"
+            android:label="@string/gettogetherAdd_screen_name" >
+     
+
+
+       <intent-filter>
+              
+
+
+  <action android:name="com.example.gettogether.GetTogetherAddActivity" />
+              
+
+
+
+  <category android:name="android.intent.category.DEFAULT" />
+         
+
+
+   </intent-filter>
+        </activity>  
+        <activity
+            android:name=".GetTogetherDetailActivity"
+            android:label="@string/gettogetherDetail_screen_name" >
+  
+
+
+
+          <intent-filter>
+                <action android:name="com.example.gettogether.GetTogetherDetailActivity" />
+           
+
+
+
+     <category android:name="android.intent.category.DEFAULT" />
+          
+
+
+
+  </intent-filter>
+        </activity> 
+	
+
+
+
+	<activity
+            android:name=".GetTogetherUpdateActivity"
+            android:label="@string/gettogetherUpdate_screen_name" >
+    
+
+
+
+        <intent-filter>
+                <action android:name="com.example.gettogether.GetTogetherUpdateActivity" />
+             
+
+
+
+
+   <category android:name="android.intent.category.DEFAULT" />
+         
+
+
+
+
+
+
+
+
+   </intent-filter>
+        </activity>    
+              		  
+
+
+
+     <activity
+            android:name=".PlacesActivity"
+            android:label="@string/places_screen_name" >
+          
+
+
+  <intent-filter>
+                <action android:name="com.example.gettogether.PlacesActivity" />
+             
+
+
+   <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+ 	
+
+
+	<activity
+            android:name=".PlaceAddActivity"
+            android:label="@string/placeAdd_screen_name" >
+    
+
+
+        <intent-filter>
+               
+
+
+
+ <action android:name="com.example.gettogether.PlaceAddActivity" />
+    
+         
+
+   <category android:name="android.intent.category.DEFAULT" />
+          
+
+
+  </intent-filter>
+       
+
+
+ </activity>  
+       
+
+
+ <activity
+            android:name=".PlaceDetailActivity"
+            android:label="@string/placeDetail_screen_name" >
+    
+
+
+        <intent-filter>
+           
+
+
+
+     <action android:name="com.example.gettogether.PlaceDetailActivity" />
+            
+
+
+    <category android:name="android.intent.category.DEFAULT" />
+           
+
+
+ </intent-filter>
+        </activity> 
+	
+
+
+
+	<activity
+            android:name=".PlaceUpdateActivity"
+            android:label="@string/placeUpdate_screen_name" >
+     
+
+
+
+       <intent-filter>
+                <action android:name="com.example.gettogether.PlaceUpdateActivity" />
+        
+
+
+        <category android:name="android.intent.category.DEFAULT" />
+   
+
+
+
+         </intent-filter>
+ 
+
+
+       </activity>          
+    </application>
+
+</manifest>

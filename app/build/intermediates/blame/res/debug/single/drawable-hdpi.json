@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\GetTogetherDatabase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\add_icon.png",
+        "source": "F:\\GetTogetherDatabase\\app\\src\\main\\res\\drawable-hdpi\\add_icon.png"
+    },
+    {
+        "merged": "F:\\GetTogetherDatabase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\banner1.png",
+        "source": "F:\\GetTogetherDatabase\\app\\src\\main\\res\\drawable-hdpi\\banner1.png"
+    },
+    {
+        "merged": "F:\\GetTogetherDatabase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logo_big.png",
+        "source": "F:\\GetTogetherDatabase\\app\\src\\main\\res\\drawable-hdpi\\logo_big.png"
+    },
+    {
+        "merged": "F:\\GetTogetherDatabase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\exit_icon.png",
+        "source": "F:\\GetTogetherDatabase\\app\\src\\main\\res\\drawable-hdpi\\exit_icon.png"
+    },
+    {
+        "merged": "F:\\GetTogetherDatabase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\home_icon.png",
+        "source": "F:\\GetTogetherDatabase\\app\\src\\main\\res\\drawable-hdpi\\home_icon.png"
+    },
+    {
+        "merged": "F:\\GetTogetherDatabase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "F:\\GetTogetherDatabase\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

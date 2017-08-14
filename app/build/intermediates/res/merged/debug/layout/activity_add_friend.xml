@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/ggg"
+    >
+  
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Details And Send Invite"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:ems="20"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+<EditText
+    android:layout_marginTop="30dp"
+	 android:id="@+id/txtName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="Name"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+    android:ems="15"
+
+    android:gravity="center"
+    >
+    </EditText>    
+<EditText  
+	 android:id="@+id/txtEmail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="Email"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+    android:layout_marginTop="15dp"
+
+    android:ems="15"
+    android:gravity="center">
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:ems="15"
+        >
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Message"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:ems="15"
+        android:textColor="#ffffff"
+        android:inputType="textMultiLine"
+        android:gravity="center"/>
+
+
+
+<LinearLayout
+    android:layout_marginTop="55dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <Button
+
+        android:layout_marginLeft="60sp"
+        android:id="@+id/btnFriendAdd"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+
+    android:text=" Add Friend"
+
+        android:textColor="#ffffff"
+        android:background="@drawable/kkk"
+    android:gravity="center_vertical"
+     android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/kkk"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="68dp"
+        android:text="Send SMS"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
+
+</LinearLayout>

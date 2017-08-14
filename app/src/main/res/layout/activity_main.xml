@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+	android:weightSum="1"
+	android:background="@drawable/ccc">
+
+
+
+  <TextView
+
+      	android:id="@+id/splash_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:textSize="18sp"
+    	android:textStyle="bold|italic"
+    	android:textColor="#ffffff"
+        android:gravity="center"
+        android:paddingTop="3dip"
+	  android:text="@string/splash_desc"
+	  android:layout_weight="0.43" />
+
+
+
+
+    <Button
+        android:id="@+id/btnProceed"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+		android:layout_marginTop="58dp"
+        android:text="LAUNCH"
+        android:textColor="#ffffff"
+		android:background="@drawable/kkk"
+        android:onClick="onClick"
+android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/ggg">
+  
+  
+<EditText  
+	 android:id="@+id/txtName"
+    android:layout_width="250dp" 
+    android:layout_height="wrap_content"
+    android:hint="Name"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+    >
+    </EditText>    
+<EditText  
+	 android:id="@+id/txtAddress"
+    android:layout_width="250dp" 
+    android:layout_height="wrap_content"
+    android:hint="Address"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+    >
+    </EditText> 
+    
+<EditText
+
+	 android:id="@+id/txtPhone"
+    android:layout_width="250dp" 
+    android:layout_height="wrap_content"
+    android:hint="Phone"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+    >
+    </EditText>  
+    
+<TextView
+
+    android:layout_marginTop="20sp"
+	 android:id="@+id/txtPopularFood"
+    android:layout_width="250dp" 
+    android:layout_height="wrap_content"
+    android:text="Popular Food"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    >
+    </TextView>  
+ <CheckBox
+     android:layout_marginTop="20sp"
+        android:id="@+id/chkBoxPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza"
+     android:textColor="#ffffff"/>
+ 
+ <CheckBox
+     android:textColor="#ffffff"
+        android:id="@+id/chkBoxSandwich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sandwich" />
+ 
+ <CheckBox
+     android:textColor="#ffffff"
+        android:id="@+id/chkBoxBurger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burger" />
+ <TextView
+     android:textColor="#ffffff"
+	 android:id="@+id/txtRating"
+    android:layout_width="250dp" 
+    android:layout_height="wrap_content"
+    android:text="Rating"
+    android:textSize="20sp"
+    android:textStyle="bold"
+     android:layout_marginTop="20sp"
+    >
+    </TextView>  
+ 
+ <RadioGroup
+     android:textColor="#ffffff"
+     android:id="@+id/rg1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:layout_marginTop="20sp">
+     
+     <RadioButton
+         android:textColor="#ffffff"
+      android:id="@+id/optionGood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Good" />   
+     
+     <RadioButton
+         android:textColor="#ffffff"
+      android:id="@+id/optionExcellent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Excellent" />  
+        
+ 
+     <RadioButton
+         android:textColor="#ffffff"
+      android:id="@+id/optionModerate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moderate" />       
+     
+ </RadioGroup> 
+  
+<Button
+    android:layout_gravity="center"
+    android:layout_marginTop="20sp"
+    android:textColor="#ffffff"
+     android:id="@+id/btnFriendAdd"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:text="Add Place"
+
+    android:textStyle="bold"
+    android:gravity="center_horizontal"
+     android:onClick="onClick"
+    
+    >
+       
+ </Button>    
+
+</LinearLayout>

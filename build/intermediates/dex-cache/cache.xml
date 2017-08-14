@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\MyProjects\GetTogetherDatabase\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f85dddb005daafff0920855b53580d9c1f24f6d4">
+        <dex dex="D:\MyProjects\GetTogetherDatabase\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4133e8f670fcefef24bd4830bfc7ae09fa42f4e3\classes.dex" />
+    </item>
+    <item
+        jar="D:\MyProjects\GetTogetherDatabase\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="851d49f91102ff2613d9e952097da0fb6f467cfe">
+        <dex dex="D:\MyProjects\GetTogetherDatabase\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b9e108273964c73a660fa44ad5494bcfd6cda12b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Abhishek\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\MyProjects\GetTogetherDatabase\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_9e0136b652bf888195cd2c8907b47835bced4201\classes.dex" />
+    </item>
+
+</items>
